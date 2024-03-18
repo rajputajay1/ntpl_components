@@ -5,57 +5,56 @@ const About = () => {
     return (
         <>
 
-            <div className="px-10 py-8 ">
-                <div className='flex gap-10'>
-                    <div className='text-6xl font-bold'>
-                        ABOUT
-
-                        <div className='flex gap-3 mt-2'>
-                            <p className='text-blue-500'> NTPL </p>
-                            <p className='text-blue-500'>  World</p>
-                        </div>
+            <div className="lg:px-10 py-8 max-lg:px-5">
+                <div class='lg:flex gap-5 max-lg:text-center  '>
+                    <div class='text-5xl font-extrabold  max-sm:text-3xl lg:w-[405px]  '>
+                        ABOUT 
+                        <span class="text-blue-500"> NTPL World</span>
                     </div>
 
-                    <div className="w ">
-                        <p>
+                    <div class="lg:w-full  max-lg:mt-3  ">
+                        <p >
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took..
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took..Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took..Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took..
                         </p>
 
-                        <p className='mt-6 text-1xl font-bold text-black'>More</p>
-                        <div class="w-10 h-0 border-b-2 border-black   "></div>
-
+                        <p class='mt-6 text-1xl font-bold text-black'>More</p>
+                        {/* <div class="w-10 border-b-2 border-black max-md:text-center max-lg:flex-none" ></div> */}
                     </div>
-
                 </div>
+
 
                 <hr className="border-t border-gray-300 mt-8" />
 
-                <div className='flex '>
+                <div className='lg:flex max-lg:justify-start    '>
                     {/* left div */}
-                    <div className='pt-10 pl-6 pr-10 '>
-                        <p className='text-black  mb-2 '>Of regular clients</p>
-                        <span className='text-black  font-bold text-5xl '>90  <span className='italic'>%</span></span>
-                        <p className='text-black mt-10 mb-2'>Proficient specialists</p>
-                        <span className='text-black  font-bold text-5xl '>12</span>
-                        <p className='text-black  mt-10 mb-2 whitespace-nowrap'>We have been unstoppable since</p>
-                        <span className='text-black  font-bold text-5xl '>2004</span>
-
+                    <div className='pt-10  max-lg:flex  max-lg:justify-between '>
+                        <div className=''>
+                            <p className='text-black max-lg:mb-3 font-semibold max-sm:text-1xl '>Of regular clients</p>
+                            <span className='text-black font-bold text-5xl max-sm:text-4xl '>90 <span className='italic'>%</span></span>
+                        </div>
+                        <div className=''>
+                            <p className='text-black max-lg:mb-3 font-semibold lg:mb-2 lg:mt-8 max-sm:text-1xl  '>Proficient specialists</p>
+                            <span className='text-black font-bold text-5xl max-lg:mt-6 max-sm:text-4xl'>12</span>
+                        </div>
+                        <div className=''>
+                            <p className='text-black  lg:whitespace-nowrap max-lg:mb-3 font-semibold lg:mb-2 lg:mt-8 pr-5 '>We have been unstoppable since</p>
+                            <span className='text-black font-bold text-5xl max-sm:text-4xl'>2004</span>
+                        </div>
                     </div>
-                    <div className="border-l border-gray-400 "> </div>
+
+                    <div className="border-l border-gray-400 max-lg:flex-none flex "> </div>
                     {/* right div */}
-                    <div className='pt-6 pl-10'>
+                    <div className='pt-6 lg:pl-10   max-lg:flex max-lg:flex-col max-lg:justify-around '>
                         <p className='text-blue-500 font-semibold mb-2'>INDUSTRIES</p>
                         <div>
-                            <div className='text-black  font-bold text-5xl '>Delivering Industry-Focused  </div>
-                            <div className=' text-black  font-bold text-5xl mt-2'>Software Solutions</div>
+                            <div className='text-black  font-bold text-5xl max-md:text-4xl max-sm:text-3xl'>Delivering Industry-Focused  </div>
+                            <div className=' text-black  font-bold text-5xl mt-2 max-md:text-4xl max-sm:text-3xl'>Software Solutions</div>
                         </div>
                         <p className='  mt-4'>Our team of software development experts collaborates with clients to understand their roadblocks and objectives, enabling us to develop custom software development solutions that are efficient and scalable for diverse industries.</p>
 
-
-
                         <div class="pt-10">
-                            <div class="grid grid-cols-6 gap-4">
+                            <div class="grid grid-cols-6 gap-4  max-lg:grid-cols-4  max-lg:mt-5 max-md:grid-cols-3  max-lg:md-5">
                                 <div class="flex flex-col items-center">
                                     <BiSolidBank className='h-10 w-10' />
                                     <p class="text-black mt-1 text-center">Oil & Gas</p>
@@ -80,12 +79,6 @@ const About = () => {
                                     <BiSolidBank className='h-10 w-10' />
                                     <p class="text-black mt-1 text-center">Travel & Hospitality</p>
                                 </div>
-                            </div>
-                        </div>
-
-                        {/* <!-- Second set of icons --> */}
-                        <div class="pt-10">
-                            <div class="grid grid-cols-6 gap-4">
                                 <div class="flex flex-col items-center">
                                     <BiSolidBank className='h-10 w-10' />
                                     <p class="text-black mt-1 text-center">Communication, Media, Entertainment</p>
@@ -113,7 +106,7 @@ const About = () => {
                             </div>
                         </div>
 
-
+                 
 
                     </div>
                 </div >
