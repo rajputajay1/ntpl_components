@@ -11,9 +11,9 @@ const Homeforth = () => {
                     <div className='w-[45%] max-lg:w-1/3'>
 
                    
-                        <p className='text-white text-6xl max-lg:text-5xl max-sm:text-3xl font-bold '>
+                        <p className='text-white text-6xl max-lg:text-5xl max-sm:text-3xl font-bold  mt-5'>
                             <p>  OUR
-                                {/* <span className='text-white text-'>Make sure what is said
+                                {/* <span className='text-white text-2xl'>Make sure what is said
                                     about Win-Win partnership</span> */}
                             </p>
                         PARTNERS</p>

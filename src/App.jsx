@@ -27,14 +27,13 @@ function App() {
 
   return (
     <>
-      {/* 
-      <Service  ></Service>
-      <About></About>
-      <PrototypeService></PrototypeService> */}
+
+
+      {/* <PrototypeService></PrototypeService> */}
       {/* <Proto_Client></Proto_Client> */}
-      {/* <Proto_WhoCome></Proto_WhoCome>
-      <Proto_Grow></Proto_Grow>
-      <Proto_linking></Proto_linking> */}
+      {/* <Proto_WhoCome></Proto_WhoCome> */}
+      {/* <Proto_Grow></Proto_Grow> */}
+      {/* <Proto_linking></Proto_linking> */}
       {/* <Proto_images></Proto_images> */}
       {/* <Proto_experince></Proto_experince>
       <Proto_need></Proto_need>
@@ -42,9 +41,12 @@ function App() {
       <Proto_Discovery></Proto_Discovery> */}
 
 
-      <Header></Header>
       <HomeFirst></HomeFirst>
-      <Homeforth></Homeforth>
+      <Service  ></Service>
+      <About></About>
+
+
+      {/* <Homeforth></Homeforth>  panding */}
       <HomeFifth></HomeFifth>
       <HomeSix></HomeSix>
       <HomeSeven></HomeSeven>

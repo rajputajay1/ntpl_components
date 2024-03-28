@@ -9,7 +9,7 @@ const HomeSeven = () => {
 
                 <div className='max-lg:text-center'>
 
-                    <p className='text-blue-500'>
+                    <p className='font-bold pt-14' style={{color:"#049AEF"}}>
                         TOP SERVICES
                     </p>
                     <p className='text-white text-6xl max-lg:text-5xl max-sm:text-3xl font-bold mt-5'>Bespoke Software Development Services for Next-Gen Businesses
@@ -32,18 +32,18 @@ const HomeSeven = () => {
                     <div className=''>
                         <img src={home7} alt="" height={50} width={50} />
                         <p className='text-white font-bold text-2xl'>
-                        Product prototyping
+                            Product prototyping
                         </p>
                         <p className='text-white'>
-                        We are all makers, from the partners to the junior staff. It is this born-digital, hands-on talent that enable us to craft the best creative technology and studio production solutions.
+                            We are all makers, from the partners to the junior staff. It is this born-digital, hands-on talent that enable us to craft the best creative technology and studio production solutions.
                         </p>
                     </div>
                     <div className=''>
                         <img src={home7} alt="" height={50} width={50} />
                         <p className='text-white font-bold text-2xl'>
-                        Mobile app development                        </p>
+                            Mobile app development                        </p>
                         <p className='text-white'>
-                        We do play a lot, but we also work hard and like to challenge ourselves with proposing new projects that will further better our skills and connect us as a team.
+                            We do play a lot, but we also work hard and like to challenge ourselves with proposing new projects that will further better our skills and connect us as a team.
                         </p>
                     </div>
                     <div className=''>
@@ -52,7 +52,7 @@ const HomeSeven = () => {
                             Legacy System Modernization
                         </p>
                         <p className='text-white'>
-                        No big reveals, no presentations and no wireframes. We deliver prototypes before pretty pixels. We craft stories before we design. And we do it quickly, leaving room to integrate again and again.
+                            No big reveals, no presentations and no wireframes. We deliver prototypes before pretty pixels. We craft stories before we design. And we do it quickly, leaving room to integrate again and again.
                         </p>
                     </div>
                 </div>

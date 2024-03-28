@@ -5,7 +5,7 @@ const HomeNine = () => {
     return (
         <>
             <div className='bg-black items-center  px-8 text-center pb-8'>
-                <div className=' items-center flex justify-center lg:px-52'>
+                <div className=' items-center flex justify-center lg:px-52 pt-20'>
                     <img src={home13} alt="" />
                 </div>
 

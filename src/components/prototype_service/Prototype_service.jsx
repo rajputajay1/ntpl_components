@@ -8,12 +8,12 @@ const PrototypeService = () => {
     return (
         <>
             <div className="bg-cover pb-8" style={{ backgroundImage: `url(${proto_service})` }}>
-                <div className='grid grid-cols-2 max-lg:grid-cols-1'>
+                <div className='grid grid-cols-2 max-md:grid-cols-1'>
                     {/* left div  */}
                     <p className=' px-8 py-6  max-lg:text-center'>
                         <div className='lg:w-1/2 text-6xl font-extrabold text-white  max-sm:text-3xl max-lg:text-4xl max-lg:flex max-lg:justify-center gap-2'>
                             <p>Software Prototyping Services</p>
-                     
+
 
                         </div>
                         <p className='text-white mt-4'>Our software prototyping services are your gateway to exploring new possibilities, testing groundbreaking ideas, and validating concepts with precision and speed. We blend creativity with technology to create perfect software prototypes that speak volumes about your brand's potential.</p>
@@ -24,15 +24,15 @@ const PrototypeService = () => {
                     {/* right  div */}
 
 
-           
-                        <div className='bg-cover relative' style={{ backgroundImage: `url(${proto_service3})` }}>
-                            {/* Inner div with flexbox */}
-                            <div className='flex flex-col justify-end justify-items-end  bottom-0 gap-5   pt-11'>
-                                <img src={proto_service1} alt="" height={150} width={250} className='pl-6' />
-                                <img src={proto_service2} alt="" height={150} width={360} className='pl-32 pb-5' />
-                            </div>
+
+                    <div className='bg-cover relative ' style={{ backgroundImage: `url(${proto_service3})` }}>
+                        {/* Inner div with flexbox */}
+                        <div className='flex flex-col justify-end justify-items-end  md:absolute  bottom-0 gap-5  mt-52'>
+                            <img src={proto_service1} alt="" height={150} width={250} className='pl-6' />
+                            <img src={proto_service2} alt="" height={150} width={360} className='pl-32 pb-5' />
                         </div>
-            
+                    </div>
+
 
                     {/* <img src={proto_service3} alt="" /> */}
                 </div>

@@ -4,7 +4,7 @@ import home6 from "../../images/home8.png"
 const HomeSix = () => {
     return (
         <>
-            <div className="bg-cover " style={{ backgroundImage: `url(${home6})` }}    >
+            <div className="bg-cover mt-10 " style={{ backgroundImage: `url(${home6})` }}    >
                 <div className=' text-center '>
                     <p className='text-white pt-5 font-bold'>CONTACT</p>
                     <p className='text-6xl text-white font-bold pt-2  max-lg:text-4xl max-sm:text-3xl'> Create great things together!</p>

@@ -9,7 +9,7 @@ const HomeFifth = () => {
 
                 <div className='max-lg:text-center'>
 
-                    <p className='text-blue-500'>
+                    <p className=' mt-5 font-bold ' style={{ color: "#049AEF" }}>
                         TECHNOLOGY STACK
                     </p>
                     <p className='text-black text-6xl max-lg:text-5xl max-sm:text-3xl font-bold mt-5'>Elevating Software Development with a Robust Technology Stack</p>
@@ -17,42 +17,43 @@ const HomeFifth = () => {
                         Our technology stack includes the latest programming languages and frameworks to deliver custom software development services & solutions. As a top software development company, we use agile methodologies to ensure rapid development and scalable solutions.
                     </p>
                 </div>
-                <div className='grid grid-cols-12 mt-6'>
+                <div className='grid grid-cols-12 mt-6 gap-5 max-lg:grid-cols-6 max-sm:grid-cols-3'>
                     <p>
                         Hi-Tech
                     </p>
                     <p>
-                        Hi-Tech
+                        AI/ML
                     </p>
                     <p>
-                        Hi-Tech
+                        Cloud/DevOps
                     </p>
                     <p>
-                        Hi-Tech
+                        Platforms/BI 
                     </p>
                     <p>
-                        Hi-Tech
+                        Frameworks
                     </p>
                     <p>
-                        Hi-Tech
+                        Front-End
                     </p>
                     <p>
-                        Hi-Tech
+                        Back-End
                     </p>
                     <p>
-                        Hi-Tech
+                        Mobile
                     </p>
                     <p>
-                        Hi-Tech
+                        Database
                     </p>
                     <p>
-                        Hi-Tech
+                    CMS
                     </p>
                     <p>
-                        Hi-Tech
+                    Quality Engineering 
                     </p>
+                 
                     <p>
-                        Hi-Tech
+                        Tools
                     </p>
                 </div>
                 <hr className='mt-4' />
@@ -124,7 +125,7 @@ const HomeFifth = () => {
 
                 </div>
             </div>
-         
+
 
         </>
     )

@@ -1,12 +1,13 @@
 import React from 'react'
 import home12 from "../../images/home12.png"
+import faqback from "../../images/faqback.png"
 
 const HomeEight = () => {
   return (
     <>
 
-      <div className='bg-black pb-5 grid grid-cols-2 gap-20 px-8  max-lg:grid-cols-1' >
-        <div>
+      <div className='bg-black pb-5 grid grid-cols-2 gap-20 px-8  max-lg:grid-cols-1'  >
+        <div className='mt-10'>
           <p className='text-white text-5xl font-bold max-lg:text-3xl max-sm:text-3xl'>
             Frequently Asked Questions (FAQ’s)
           </p>
@@ -40,7 +41,7 @@ const HomeEight = () => {
 
 
         </div>
-        <div className=''>
+        <div  className='mt-10'>
           <img src={home12} alt="" />
         </div>
       </div>
