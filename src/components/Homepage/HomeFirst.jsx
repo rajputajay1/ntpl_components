@@ -9,9 +9,14 @@ const HomeFirst = () => {
   return (
     <>
       {/* backgroundImage: `url(${HomeFirstimg}) */}
-      <div className=' bg-cover'
-        style={{ backgroundImage: `url(${HomeFirstimg})` }}
-      >
+      <div className=''
+        style={{
+          backgroundImage: `url(${HomeFirstimg})`,
+          backgroundPosition: 'center right',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: '100% 100% ',
+
+        }}>
         <div className=' flex justify-between px-8 items-center' style={{
           backgroundImage: `url(${headerback})`,
         }}>

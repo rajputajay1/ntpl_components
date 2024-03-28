@@ -17,46 +17,24 @@ const HomeFifth = () => {
                         Our technology stack includes the latest programming languages and frameworks to deliver custom software development services & solutions. As a top software development company, we use agile methodologies to ensure rapid development and scalable solutions.
                     </p>
                 </div>
-                <div className='grid grid-cols-12 mt-6 gap-5 max-lg:grid-cols-6 max-sm:grid-cols-3'>
-                    <p>
-                        Hi-Tech
-                    </p>
-                    <p>
-                        AI/ML
-                    </p>
-                    <p>
-                        Cloud/DevOps
-                    </p>
-                    <p>
-                        Platforms/BI 
-                    </p>
-                    <p>
-                        Frameworks
-                    </p>
-                    <p>
-                        Front-End
-                    </p>
-                    <p>
-                        Back-End
-                    </p>
-                    <p>
-                        Mobile
-                    </p>
-                    <p>
-                        Database
-                    </p>
-                    <p>
-                    CMS
-                    </p>
-                    <p>
-                    Quality Engineering 
-                    </p>
-                 
-                    <p>
-                        Tools
-                    </p>
+                <div class='mt-6 overflow-x-auto'>
+                    <div class='flex justify-between whitespace-no-wrap max-md:gap-10'>
+                        <p>Hi-Tech</p>
+                        <p>AI/ML</p>
+                        <p>Cloud</p>
+                        <p>Platforms</p>
+                        <p>Frameworks</p>
+                        <p>Front-End</p>
+                        <p>Back-End</p>
+                        <p>Mobile</p>
+                        <p>Database</p>
+                        <p>CMS</p>
+                        <p>Quality</p>
+                        <p>Tools</p>
+                    </div>
                 </div>
-                <hr className='mt-4' />
+                {/* <hr class='mt-4' /> */}
+
 
 
                 <div className='mt-5 grid grid-cols-6 max-lg:grid-cols-3 gap-9'>

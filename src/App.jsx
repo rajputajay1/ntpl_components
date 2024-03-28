@@ -46,7 +46,7 @@ function App() {
       <About></About>
 
 
-      {/* <Homeforth></Homeforth>  panding */}
+      <Homeforth></Homeforth>
       <HomeFifth></HomeFifth>
       <HomeSix></HomeSix>
       <HomeSeven></HomeSeven>
