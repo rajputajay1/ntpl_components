@@ -6,13 +6,13 @@ const About = () => {
         <>
 
             <div className="lg:px-10 py-8 max-lg:px-5">
-                <div class='lg:flex gap-5 max-lg:text-center  '>
-                    <div class='text-5xl font-extrabold  max-sm:text-3xl lg:w-[405px]  '>
-                        ABOUT 
-                        <span class="text-blue-500"> NTPL World</span>
+                <div class='grid grid-cols-2 max-lg:grid-cols-1  '>
+                    <div class='text-6xl font-extrabold  max-lg:text-4xl max-sm:text-3xl max-lg:text-center max-lg:flex max-lg:justify-center gap-2  '>
+                        <p className='text-black '>ABOUT  </p>
+                        <p className='text-blue-500'> NTPL World</p>
                     </div>
 
-                    <div class="lg:w-full  max-lg:mt-3  ">
+                    <div class="  max-lg:mt-3  ">
                         <p >
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took..
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took..Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took..Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took..
@@ -106,7 +106,7 @@ const About = () => {
                             </div>
                         </div>
 
-                 
+
 
                     </div>
                 </div >
